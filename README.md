@@ -1,3 +1,11 @@
+**Stack**
+- FastAPI + SQLAlchemy + Alembic
+- Kafka/Redpanda (event streaming)
+- PostgreSQL (per-service databases)  
+- Docker Compose (local orchestration)
+- Protobuf (service contracts)
+- OpenTelemetry (observability)
+
 # OrderWeaver — event-driven e‑commerce ядро на сагах
 
 Проект демонстрирует распределённые транзакции через паттерн саг (orchestration), обмен событиями между микросервисами `orders`, `payments`, `inventory` и отдельным сервисом‑оркестратором `orchestrator`. Используются FastAPI, Kafka/Redpanda, Postgres, Protobuf, SQLAlchemy/Alembic, OpenTelemetry.
